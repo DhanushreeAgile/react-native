@@ -9,10 +9,18 @@
     "web": "expo start --web"
   },
   "dependencies": {
+    "@ant-design/react-native": "^5.0.1",
+    "@react-native-community/progress-bar-android": "^1.0.4",
     "expo": "~46.0.8",
     "expo-status-bar": "~1.4.0",
     "react": "18.0.0",
-    "react-native": "0.69.4"
+    "react-native": "0.69.4",
+    "react-native-date-picker": "^4.2.5",
+    "react-native-form-inputs": "^0.0.5",
+    "react-native-inputs": "^0.2.1",
+    "react-native-paper": "^4.12.4",
+    "react-native-progress": "^5.0.0",
+    "react-native-progress-circle": "^2.1.0"
   },
   "devDependencies": {
     "@babel/core": "^7.12.9"
