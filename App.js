@@ -1,14 +1,18 @@
 import { StatusBar } from 'expo-status-bar';
 import { StyleSheet, Text, View } from 'react-native';
 import DatePickercomponent from './Components/DatePickercomponent';
+import Login from './Components/Login';
 import MainPage from './Components/Main';
+import Member from './Components/Member';
 // import Main from './Components/Main';
 
 export default function App() {
   return (
     <View style={styles.container}>
-      <MainPage/>
+      {/* <MainPage/> */}
       {/* <DatePickercomponent/> */}
+      {/* <Login/> */}
+      <Member/>
     </View>
   );
 }
